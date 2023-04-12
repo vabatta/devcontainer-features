@@ -12,7 +12,7 @@ Running `cz` inside the built container will print the Commitizen help.
 {
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
-        "ghcr.io/vabatta/devcontainers-features/commitizen:1": "latest"
+        "ghcr.io/vabatta/devcontainers-features/commitizen:1": {}
     }
 }
 ```

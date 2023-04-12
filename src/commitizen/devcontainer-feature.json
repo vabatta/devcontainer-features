@@ -1,0 +1,20 @@
+{
+	"id": "commitizen",
+	"name": "Commitizen git tool",
+	"version": "1.0.0",
+	"description": "Standardizes commit and versioning.",
+	"options": {
+		"version": {
+			"type": "string",
+			"proposals": [
+				"latest"
+			],
+			"default": "latest",
+			"description": "Version of Commitizen to use."
+		}
+	},
+	"installsAfter": [
+		"ghcr.io/devcontainers/features/common-utils",
+		"ghcr.io/devcontainers/features/git"
+	]
+}

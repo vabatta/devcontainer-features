@@ -1,0 +1,10 @@
+{
+	"commitizen": {
+			"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+			"features": {
+					"commitizen": {
+							"version": "latest"
+					}
+			}
+	}
+}

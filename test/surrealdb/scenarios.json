@@ -1,0 +1,10 @@
+{
+	"surrealdb": {
+			"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+			"features": {
+					"surrealdb": {
+							"version": "latest"
+					}
+			}
+	}
+}

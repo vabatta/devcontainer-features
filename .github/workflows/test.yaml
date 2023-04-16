@@ -14,6 +14,7 @@ jobs:
       matrix:
         features:
           - commitizen
+          - surrealdb
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -34,6 +35,7 @@ jobs:
       matrix:
         features:
           - commitizen
+          - surrealdb
     steps:
       - uses: actions/checkout@v3
 

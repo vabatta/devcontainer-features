@@ -1,0 +1,19 @@
+{
+	"id": "surrealdb",
+	"name": "SurrealDB CLI",
+	"version": "1.0.0",
+	"description": "Installs SurrealDB CLI.",
+	"options": {
+		"version": {
+			"type": "string",
+			"proposals": [
+				"latest"
+			],
+			"default": "latest",
+			"description": "Version of SurrealDB to use."
+		}
+	},
+	"installsAfter": [
+		"ghcr.io/devcontainers/features/common-utils"
+	]
+}

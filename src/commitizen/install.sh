@@ -13,4 +13,4 @@ fi
 
 # Install Commitizen and pre-commit
 echo "Installing commitizen and pre-commit..."
-pip3 install -U commitizen pre-commit --break-system-packages
+pip3 install -U commitizen pre-commit

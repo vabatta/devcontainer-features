@@ -3,7 +3,7 @@ set -e
 
 # Make sure `curl` is installed
 if [ ! -v curl ]; then
-	echo "`curl` not found... installing"
+	echo "curl not found... installing"
 	export DEBIAN_FRONTEND=noninteractive
 	apt-get update
 	apt-get -y install curl
@@ -11,7 +11,7 @@ if [ ! -v curl ]; then
 fi
 
 # Install surrealdb
-echo "Installing `surrealdb`..."
+echo "Installing surrealdb..."
 curl --proto '=https' --tlsv1.2 -sSf https://install.surrealdb.com | sh
 
 if [ ! -f "/usr/local/bin/surreal" ]; then

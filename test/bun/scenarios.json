@@ -3,7 +3,7 @@
 		"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 		"features": {
 			"bun": {
-				"tag": "bun-0.1.4"
+				"tag": "bun-v0.1.4"
 			}
 		}
 	}

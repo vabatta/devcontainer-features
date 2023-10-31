@@ -1,0 +1,10 @@
+{
+	"tag_0.1.4": {
+		"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+		"features": {
+			"bun": {
+				"tag": "bun-0.1.4"
+			}
+		}
+	}
+}

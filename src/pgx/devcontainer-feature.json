@@ -1,0 +1,19 @@
+{
+	"id": "pgx",
+	"name": "PostgreSQL extension development",
+	"version": "1.0.0",
+	"description": "Installs PostgreSQL and pgx development tools.",
+	"options": {
+		"version": {
+			"type": "string",
+			"proposals": [
+				"latest"
+			],
+			"default": "latest",
+			"description": "Version of PGX to use."
+		}
+	},
+	"installsAfter": [
+		"ghcr.io/devcontainers/features/common-utils"
+	]
+}

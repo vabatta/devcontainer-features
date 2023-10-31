@@ -7,12 +7,12 @@
 		"tag": {
 			"type": "string",
 			"default": "",
-			"description": "A specific tag of bun to install. (e.g. \"bun-v0.1.4\")."
+			"description": "A specific tag of bun to install. (e.g. \"bun-v0.1.4\")"
 		},
 		"variant": {
 			"type": "string",
 			"default": "",
-			"description": "A  build variant of bun to install. (e.g. \"debug-info\")."
+			"description": "A  build variant of bun to install. (e.g. \"debug-info\")"
 		}
 	},
 	"installsAfter": [

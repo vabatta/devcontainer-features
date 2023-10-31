@@ -4,21 +4,20 @@ A personal collection of useful devcontainers features.
 
 ## Contents
 
-### `commitizen`
+### `bun`
 
 ```jsonc
 {
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
-        "ghcr.io/vabatta/devcontainer-features/commitizen:1": {}
+        "ghcr.io/vabatta/devcontainer-features/bun:1": {}
     }
 }
 ```
 
 ```bash
-$ cz
-
-usage: cz [-h] [--debug] [-n NAME] [-nr NO_RAISE] {init,commit,c,ls,example,info,schema,bump,changelog,ch,check,version} ...
+$ bun
+> ...
 ```
 
 ### `surrealdb`

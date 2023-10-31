@@ -21,4 +21,8 @@ else
 fi
 
 export BUN_INSTALL=/usr/local
-curl -fsSL https://bun.sh/install | bash -s "${TAG:-}" "${VARIANT:-}"
+if [ -n "$TAG" ]; then
+	curl -fsSL https://bun.sh/install | bash -s "$TAG" "${VARIANT:-}"
+else
+	curl -fsSL https://bun.sh/install | bash
+fi

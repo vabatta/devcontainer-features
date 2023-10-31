@@ -1,9 +1,9 @@
 {
-	"surrealdb": {
+	"version_1.0.0": {
 			"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 			"features": {
 					"surrealdb": {
-							"version": "latest"
+							"version": "1.0.0"
 					}
 			}
 	}

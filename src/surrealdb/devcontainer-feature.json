@@ -10,7 +10,7 @@
 				"latest"
 			],
 			"default": "latest",
-			"description": "Version of SurrealDB to use."
+			"description": "A specific version of SurrealDB to install. (e.g. \"1.0.0\")"
 		}
 	},
 	"installsAfter": [

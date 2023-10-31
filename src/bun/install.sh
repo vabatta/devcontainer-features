@@ -20,6 +20,7 @@ else
 	apt-get install -y ${prerequisites[@]}
 fi
 
+echo "Installing bun..."
 export BUN_INSTALL=/usr/local
 if [ -n "$TAG" ]; then
 	curl -fsSL https://bun.sh/install | bash -s "$TAG" "${VARIANT:-}"

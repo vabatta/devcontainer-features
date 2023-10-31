@@ -11,7 +11,7 @@
 		"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 		"features": {
 			"bun": {
-				"tag": "bun-v0.1.4",
+				"tag": "bun-v0.5.1",
 				"variant": "debug-info"
 			}
 		}

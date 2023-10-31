@@ -1,0 +1,21 @@
+{
+	"id": "bun",
+	"name": "bun",
+	"version": "1.0.0",
+	"description": "Installs Bun runtime. It is an all-in-one toolkit for JavaScript and TypeScript apps.",
+	"options": {
+		"tag": {
+			"type": "string",
+			"default": "",
+			"description": "A specific tag of bun to install. (e.g. \"bun-v0.1.4\")"
+		},
+		"variant": {
+			"type": "string",
+			"default": "",
+			"description": "A  build variant of bun to install. (e.g. \"debug-info\")"
+		}
+	},
+	"installsAfter": [
+		"ghcr.io/devcontainers/features/common-utils"
+	]
+}
